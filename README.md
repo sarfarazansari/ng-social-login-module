@@ -10,7 +10,7 @@ For angular version < 6 check out [ng4-social-login](https://github.com/sarfaraz
 
 ## Getting started
 
-### Install via npm 
+### Installation 
 
 ```sh
 npm install --save ng-social-login-module
@@ -150,10 +150,6 @@ export class DemoComponent implements OnInit {
   <p>{{ user.email }}</p>
 </div>
 ```
-
-## Building with AoT
-
-If you are facing issue in building your app with AoT, check [this document](https://github.com/sarfarazansari/angular4-social-login/blob/master/README-AOT.md).
 
 ## Contributing to project
 ```sh
