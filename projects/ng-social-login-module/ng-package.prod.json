@@ -1,0 +1,7 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ng-social-login-module",
+  "lib": {
+    "entryFile": "src/public_api.ts"
+  }
+}

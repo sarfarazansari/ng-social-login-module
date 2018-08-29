@@ -144,6 +144,46 @@
           }
         }
       }
+    },
+    "ng-social-login-module": {
+      "root": "projects/ng-social-login-module",
+      "sourceRoot": "projects/ng-social-login-module/src",
+      "projectType": "library",
+      "prefix": "ngslm",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ng-social-login-module/tsconfig.lib.json",
+            "project": "projects/ng-social-login-module/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "project": "projects/ng-social-login-module/ng-package.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-social-login-module/src/test.ts",
+            "tsConfig": "projects/ng-social-login-module/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-social-login-module/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-social-login-module/tsconfig.lib.json",
+              "projects/ng-social-login-module/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }
   },
   "defaultProject": "angular-library"

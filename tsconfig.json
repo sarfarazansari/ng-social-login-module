@@ -16,6 +16,14 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-social-login-module": [
+        "dist/ng-social-login-module"
+      ],
+      "ng-social-login-module/*": [
+        "dist/ng-social-login-module/*"
+      ]
+    }
   }
 }
