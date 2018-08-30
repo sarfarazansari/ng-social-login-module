@@ -1,9 +1,42 @@
 {
   "name": "ng-social-login-module",
-  "version": "1.0.0",
+  "version": "1.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarfarazansari/ng-social-login-module"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarfarazansari/ng-social-login-module/issues"
+  },
+  "author": {
+    "name": "Sarfaraz Ansari",
+    "email": "sarfaraz_designer@gmail.com"
+  },
+  "keywords": [
+    "angular 6",
+    "ng",
+    "ngx",
+    "social authentication",
+    "angular-social-login",
+    "social-authentication",
+    "social-login",
+    "google-authentication",
+    "facebook-authentication"
+  ],
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
     "rxjs": "^6.0.0"
-  }
+  },
+  "main": "bundles/ng-social-login-module.umd.js",
+  "module": "fesm5/ng-social-login-module.js",
+  "es2015": "fesm2015/ng-social-login-module.js",
+  "esm5": "esm5/ng-social-login-module.js",
+  "esm2015": "esm2015/ng-social-login-module.js",
+  "fesm5": "fesm5/ng-social-login-module.js",
+  "fesm2015": "fesm2015/ng-social-login-module.js",
+  "typings": "ng-social-login-module.d.ts",
+  "metadata": "ng-social-login-module.metadata.json",
+  "sideEffects": false
 }

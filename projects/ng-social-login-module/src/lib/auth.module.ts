@@ -9,4 +9,4 @@ import { AuthService } from './auth.service';
     AuthService
   ]
 })
-export class NgSocialLoginModuleModule { }
+export class SocialLoginModule { }

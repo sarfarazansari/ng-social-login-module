@@ -118,33 +118,6 @@
         }
       }
     },
-    "angular-library-e2e": {
-      "root": "e2e/",
-      "projectType": "application",
-      "architect": {
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-library:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "angular-library:serve:production"
-            }
-          }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
-        }
-      }
-    },
     "ng-social-login-module": {
       "root": "projects/ng-social-login-module",
       "sourceRoot": "projects/ng-social-login-module/src",

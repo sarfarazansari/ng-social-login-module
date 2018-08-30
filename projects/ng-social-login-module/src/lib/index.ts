@@ -1,4 +1,4 @@
-export { NgSocialLoginModuleModule } from './auth.module';
+export { SocialLoginModule } from './auth.module';
 export { LoginProvider } from './entities/login-provider';
 export { SocialUser, LinkedInResponse, LoginProviderClass } from './entities/user';
 export { FacebookLoginProvider } from './providers/facebook-login-provider';
