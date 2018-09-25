@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {
   SocialUser, AuthService, GoogleLoginProvider,
   FacebookLoginProvider, LinkedinLoginProvider
-} from 'ng-social-login-module';
+} from '../../dist/ng-social-login-module';
 import { from } from 'rxjs';
 import { takeWhile } from 'rxjs/operators';
 

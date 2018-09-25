@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from 'ng-social-login-module';
+import { SocialLoginModule, AuthServiceConfig, GoogleLoginProvider } from './../../dist/ng-social-login-module';
 import { SOCIAL_CONFIG_KEYS } from './social.config';
 
 const CONFIG = new AuthServiceConfig([
